@@ -85,7 +85,7 @@
                             <div class="mt-3"><img class="img-fluid" style="border-radius: 50%; width: 250px; height: 250px;" src="images/gr1.webp" alt="Groom" data-aos="flip-left" data-aos-duration="1000" />
                                 <p class="pt-3 text-left text-muted"></p>
                                 <h3 class="h2 ww-title">Nama Pengantin Pria</h3>
-                                <p> Putra Pertama Pasangan <br>
+                                <p> Putra dari Pasangan <br>
                                     Bapak Pengantin Pria & Ibu Pengantin Pria
                                     <br> Beralamat di Jl. Mawar, No, xxx
                                 </p>
