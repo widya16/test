@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "wedding");
+$conn = mysqli_connect("localhost", "root", "", "wedding-sweet");
 
 function query($query)
 {
