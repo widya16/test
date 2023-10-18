@@ -1,3 +1,35 @@
+<?php
+$conn = mysqli_connect("localhost", "root", "", "wedding-sweet");
+
+function query($query)
+{
+
+    global $conn;
+
+    $result = mysqli_query($conn, $query);
+    $rows = [];
+    while ($row = mysqli_fetch_assoc($result)) {
+        $rows[] = $row;
+    }
+    return $rows;
+}
+
+function tambah($data)
+{
+    global $conn;
+
+    $nama = $data(["name"]);
+    $message = $data(["message"]);
+
+    $query = "INSERT INTO pesan VALUES ('', '$nama','$message')";
+
+    mysqli_query($conn, $query);
+
+    return mysqli_affected_rows($conn);
+}
+
+?>
+
 
 <!DOCTYPE html>
 <html lang="en-US">
